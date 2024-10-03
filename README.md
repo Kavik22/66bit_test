@@ -26,7 +26,7 @@
 Выполните следующие команды по порядку, чтобы настроить приложение и базу данных:
 
  
-    docker exec -it infoservice_app bash
+    docker exec -it 66bit_app bash
     chmod 777 -R ./
     composer install
     php artisan key:generate
